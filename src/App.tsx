@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { First, Second } from './enum';
 
 class App extends Component {
   render() {
@@ -9,7 +10,8 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.tsx</code> and save to reload.
+            First One: {First.one}
+            Second One: {Second.one}
           </p>
           <a
             className="App-link"
